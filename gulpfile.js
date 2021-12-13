@@ -16,7 +16,7 @@ function vigilarSass() {
 }
 
 function copy (){
-    return gulp.src('./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js')
+    return gulp.src('./node_modules/bootstrap/dist/js/*')
       .pipe(gulp.dest('./js'));
 }
 
