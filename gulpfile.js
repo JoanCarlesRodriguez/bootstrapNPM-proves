@@ -24,4 +24,5 @@ function copy (){
 
 exports.compilar = sassCompilador
 exports.vigilar = vigilarSass
+exports.copy = copy
 exports.build = series(sassCompilador, copy);
