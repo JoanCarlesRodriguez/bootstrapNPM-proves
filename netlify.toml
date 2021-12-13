@@ -1,3 +1,3 @@
 [build]
 
-    command = "gulp compilarSassCustom && npm install"
+    command = "gulp build"
